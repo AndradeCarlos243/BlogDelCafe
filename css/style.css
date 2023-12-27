@@ -3,7 +3,7 @@
     --fuenteHeading: 'PT+Sans', sans-serif;
     --fuenteParrafos: 'Open+Sans', sans-serif;
 
-    --primario: #434c9f;
+    --primario: #614941;
     --blanco: #FFF;
     --negro: #000;
     --gris: #e1e1e1;
@@ -75,9 +75,16 @@ img
 }
 
 /** Header **/
-.header
+.webp .header
+{
+    background-image: url(../img/banner.webp);
+}
+.no-webp .header
 {
     background-image: url(../img/banner.jpg);
+}
+.header
+{
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
